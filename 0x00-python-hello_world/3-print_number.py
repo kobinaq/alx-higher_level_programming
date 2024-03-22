@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 number = 98
 
-if (number == float, int):
+if isinstance(number, int):
     print(f"{number} Battery street")
