@@ -12,6 +12,8 @@ def uppercase(str):
         if 96 < i < 123:
             chrList[i] = chr(asciicode - 32)
 
-    print(''.join(chrList))
+    uppercaseStr = "".join(chrList)
+
+    print("chrList".format)
 
 
