@@ -2,4 +2,6 @@
 
 # define prototypr
 def print_last_digit(number):
-    return number[:-1]
+    number_list = list(number)
+
+    return number_list[:-1]
