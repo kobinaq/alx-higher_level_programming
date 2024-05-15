@@ -8,10 +8,10 @@ def uppercase(str):
 
     # Convert only lowercase letters to uppercase
     for i in range(len(chrList)):
-        chrList = ord(chrList[i])
+        asciiCode = ord(chrList[i])
         if 96 < i < 123:
-            chrList[i] -= 32
+            chrList[i] = chr(asciicode - 32)
 
-    print(''.join(chr(chrList)))
+    print(''.join(chrList))
 
 
