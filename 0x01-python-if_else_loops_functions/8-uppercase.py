@@ -16,5 +16,3 @@ def uppercase(str):
     uppercaseStr = "".join(chrList)
 
     print("{}".format(uppercaseStr))
-
-
