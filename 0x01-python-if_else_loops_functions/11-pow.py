@@ -1,4 +1,4 @@
-#!/usr/bin/env/python3
+#!/usr/bin/python3
 #Adds two numbers
 def add (a,b):
     result = 1 
