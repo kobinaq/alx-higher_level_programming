@@ -1,9 +1,5 @@
-#!/usr/bin/env/python3
-#Adds two numbers
-def add (a,b):
-    result = 1 
+#usr/bin/python3
+#add integers
 
-    for i in range(b):
-        result *= a
-
-    return result
+def add(a, b):
+    return a+b
