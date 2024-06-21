@@ -1,9 +1,17 @@
 #!/usr/bin/python3
-#Adds two numbers
-def add (a,b):
-    result = 1 
+# Multiply two numbers
 
-    for i in range(b):
-        result *= a
+def pow(a, b):
 
-    return result
+        if (b < 0):
+            a = 1 / a
+            b = -b
+
+        elif (b == 0):
+            return 1
+
+        result = 1
+        for _ in range(b):
+            result *= a 
+
+        return result
